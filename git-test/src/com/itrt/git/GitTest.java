@@ -10,4 +10,9 @@ public class GitTest {
     public static void main(String[] args) {
         System.out.println("hello git!");
     }
+
+    public void test01(){
+        int i=10;
+        i++;
+    }
 }
