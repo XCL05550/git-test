@@ -9,9 +9,11 @@ package com.itrt.git;
 public class GitTest {
     public static void main(String[] args) {
         System.out.println("hello git!");
+        //修改，调用
+       test();
     }
 
-    public void test01(){
+    public static void test(){
         int i=10;
         i++;
     }
